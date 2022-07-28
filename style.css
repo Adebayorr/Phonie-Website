@@ -2,3 +2,50 @@
 color palette for the website: #242582 #553d67 #f64c72 #99738e #2f2fa2
 font-family: Galdeano, Playfair
 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(36,37,130,1) 1%, rgba(47,47,162,1) 60%);
+    margin: 0;
+}
+
+.section-header, .nav-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-header {
+    margin-left: 15px;
+}
+
+.logo {
+    margin: 0;
+    /* font-size: 25px; */
+    font-family: 'Galdeano';
+    background: -webkit-linear-gradient(#f64c72, #e05579);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-container {
+    width: calc(100% - 170px);
+    display: inline-block;
+    text-align: right;
+}
+
+.nav-links {
+    display: inline-block;
+    font-size: 12px;
+    list-style: none;
+    margin: 4px 10px;
+
+}
+
+.nav-links >a {
+    font-family: 'Playfair Display';
+    color: #ffffff;
+    text-decoration: none;
+}
